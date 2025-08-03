@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diana Wanjiku Mungai | Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Diana Mungai</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggleTheme">🌓</button></li>
+      </ul>
+    </div>
+  </nav>
+
+ <header class="hero" style="
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1522199794611-8e516dd450e9?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  padding: 80px 5%;
+  color: #fff;
+  box-shadow: 0 0 30px #8e44ad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+">
+  <img src="images/Diana 3.jpg" alt="Diana Wanjiku Mungai" style="
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 4px solid #f39c12;
+    box-shadow: 0 0 25px #2980b9;
+    object-fit: cover;
+  ">
+
+  <div style="flex: 1; min-width: 250px;">
+    <h1 style="font-size: 3em; margin: 0 0 10px; text-shadow: 2px 2px 10px #f39c12;">Diana Wanjiku Mungai</h1>
+    <p style="font-size: 1.3em; color: #ddd; margin-bottom: 30px;">Full Stack Developer</p>
+    <a href="#contact" class="cta" style="
+      display: inline-block;
+      padding: 12px 28px;
+      background: #f39c12;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 20px;
+      box-shadow: 0 0 12px #f39c12;
+    ">Hire Me</a>
+  </div>
+</header>
+
+
+
+  <section class="about" id="about" style="
+  background: linear-gradient(135deg, #1b1b1b, #000000);
+  padding: 80px 20px;
+  color: #eee;
+  text-align: center;
+  box-shadow: 0 0 20px #8e44ad;
+">
+  <div class="container" style="max-width: 1000px; margin: auto;">
+    <img src="images/wanjiku.png" alt="About Diana" style="
+      width: 90%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 25px #f39c12;
+    ">
+    <h2 style="font-size: 2.5em; color: #8e44ad; margin-bottom: 20px;">About Me</h2>
+    <p style="font-size: 1.2em; line-height: 1.8; color: #ccc;">
+      Motivated and detail-oriented Bachelor of Engineering student with a strong foundation in full-stack web development and software engineering. Passionate about building scalable digital solutions in the ever-evolving tech landscape.
+    </p>
+  </div>
+</section>
+
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript, Java, PHP, SQL</li>
+        <li><strong>Frameworks:</strong> React, Redux, Next.js, Node.js, Express</li>
+        <li><strong>UI:</strong> TailwindCSS, Chakra UI, Bootstrap</li>
+        <li><strong>Databases:</strong> MongoDB, MySQL, SQLite</li>
+        <li><strong>Tools:</strong> Firebase, AWS, Git, Jira</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="images/ai.jpg" alt="AI Image Generator">
+          <h3>AI Image Generator</h3>
+          <p>Responsive web app using Next.js and OpenAI API to generate AI images.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/todo.jpeg" alt="Mobile Task Manager">
+          <h3>Mobile Task Manager</h3>
+          <p>Cross-platform to-do app with React Native and SQLite.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/portfolio.jpg" alt="Portfolio Website">
+          <h3>Portfolio Website</h3>
+          <p>Deployed developer portfolio with React and TailwindCSS.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/E-commerce App.jpeg" alt="E-commerce App">
+          <h3>E-commerce App</h3>
+          <p>Full-stack app with Node.js, MongoDB, and product dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2>Professional Experience</h2>
+      <ul>
+        <li><strong>DevTech Solutions:</strong> Built dynamic UIs and REST APIs, deployed on AWS.</li>
+        <li><strong>Vanta Studio AI:</strong> Developed AI web apps, integrated Firebase/MySQL auth.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor of Engineering:</strong> Prestigious University, Kenya</li>
+        <li><strong>KCSE:</strong> Loreto High School, Limuru</li>
+        <li><strong>KCPE:</strong> Nairobi Primary School</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dianamungai777@gmail.com">dianamungai777@gmail.com</a></p>
+      <p>Phone: +254 792401221</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Diana Wanjiku Mungai</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
