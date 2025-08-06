@@ -17,12 +17,12 @@ I'm Diana Wanjiku Mungai — a passionate and detail-oriented Full Stack Develop
 
 ## 🚀 Features
 
-- 💡 Neon-themed, responsive portfolio design
-- 🌓 Light/Dark Mode toggle
-- 📱 Fully mobile-friendly layout
-- 📄 Downloadable CV
-- 🧠 Skills, Education, Projects, and Contact Sections
-- 🌐 Live Deployment via GitHub Pages
+- 💡 Neon-themed, responsive portfolio design.
+- 🌓 Light/Dark Mode toggle.
+- 📱 Fully mobile-friendly layout.
+- 📄 Downloadable CV.
+- 🧠 Skills, Education, Projects, and Contact Sections.
+- 🌐 Live Deployment via GitHub Pages.
 
 ---
 
